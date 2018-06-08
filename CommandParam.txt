@@ -1,0 +1,9 @@
+程序包管理器控制台
+Add-Migration Init
+Remove-Migration
+Update-Database
+
+项目根目录cmd
+dotnet ef migrations add Init
+dotnet ef database update
+dotnet ef database drop
